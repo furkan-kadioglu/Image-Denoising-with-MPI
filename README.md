@@ -1,2 +1,2 @@
 # Image-Denoising-with-MPI
-MPI is a parallel processing library in cpp.
+Parallel processing by using C/C++ with MPI library.
