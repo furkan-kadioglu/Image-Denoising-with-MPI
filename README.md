@@ -1,6 +1,11 @@
 # Image-Denoising-with-MPI
 Parallel processing by using C/C++ with MPI library.
 
+```bash
+mpic++ main.cpp -o mpi_project -std=c++11
+mpiexec  -n 5 mpi_project input_output/lena200_noisy.txt input_output/out.txt 0.8 0.15
+```
+
 ## Introduction
 In this project, I have experienced parallel programming with C/C++ using MPI library. I have implemented a parallel algorithm for image denoising with the Ising model using Metropolis Hastings algorithm. 
 ## The Ising Model
